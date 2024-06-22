@@ -1,0 +1,21 @@
+#input_search{
+    width: 30% !important;
+    height: 50px !important;
+    border: 1px solid black !important;
+    margin: 30px 0 0 450px;
+    border-radius: 5px;
+}
+
+.btn_price{
+    background-color: rgb(27, 119, 218) !important;
+    padding: 10px 20px !important;
+    border-radius: 9px !important;
+    color: white !important;
+}
+
+#drowpdown{
+    border:  1px solid black !important;
+    padding: 10px 20px;
+    border-radius: 7 !important;
+    background-color: whitesmoke
+}

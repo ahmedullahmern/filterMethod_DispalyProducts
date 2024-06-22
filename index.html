@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product_list</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+     <div class="main">
+        <input id="input_search" placeholder="&nbsp;price" type="number">
+        <button onclick="btn_price()" class="btn_price"> search</button>
+        <select id="drowpdown">
+            <option value="all">All Categories</option>
+            <option value="men's clothing">men's clothing</option>
+            <option value="jewelery">jewelery</option>
+            <option value="electronics">electronics</option>
+        </select>
+     </div>
+     
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto">
+          <div class="flex flex-wrap -m-4" id="product_list"></div>
+        </div>
+      </section>  
+    <script src="app.js"></script>
+</body>
+</html>
